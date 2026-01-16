@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #000;
+    padding: 6px;
+    vertical-align: middle;
+}
+
+.no-border td {
+    border: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+@media print {
+    button {
+        display: none;
+    }
+}
+
+
+.kop-title {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.kop-subtitle {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.kop-main {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.kop-wrapper {
+    margin-bottom: 30px;
+    /* JARAK KE TABEL PERIODE */
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 8px 18px;
+    border: none;
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.btn-print {
+    background-color: #2563eb; /* biru */
+    color: #fff;
+}
+
+.btn-back {
+    background-color: #6b7280; /* abu */
+    color: #fff;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+
