@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const pageInfo = document.getElementById("pageInfo");
     const pagination = document.getElementById("pagination");
 
-    const rowsPerPage = 5;
+    const rowsPerPage = 10;
     let currentPage = 1;
 
     // === AMBIL SEMUA ROW DATA ===
@@ -125,3 +125,4 @@ document.addEventListener("DOMContentLoaded", () => {
     // INIT
     applyFilter();
 });
+
