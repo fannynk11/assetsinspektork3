@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 const pagination = document.getElementById("pagination");
                 const paginationInfo = document.getElementById("paginationInfo");
 
-                const rowsPerPage = 2;
+                const rowsPerPage = 5;
                 let currentPage = 1;
 
                 /* =============================
@@ -137,4 +137,5 @@ document.addEventListener("DOMContentLoaded", function() {
                 });
 
                 renderTable();
+
             });
