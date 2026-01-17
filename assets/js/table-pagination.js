@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const pagination = document.getElementById("pagination");
     const pageInfo = document.getElementById("pageInfo");
 
-    const rowsPerPage = 5;
+    const rowsPerPage = 10;
     const windowSize = 1;
 
     let currentPage = 1;
@@ -135,3 +135,4 @@ document.addEventListener("DOMContentLoaded", () => {
     render();
 
 });
+
